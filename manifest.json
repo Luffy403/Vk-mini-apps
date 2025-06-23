@@ -1,0 +1,17 @@
+{
+    "name": "Мои заметки",
+    "description": "Простое приложение для создания и хранения заметок",
+    "type": "app",
+    "alias": "Notes App",
+    "platforms": ["web", "vk"],
+    "launchParams": {
+        "view": "default"
+    },
+    "icons": {
+        "16": "https://example.com/icon16.png",
+        "24": "https://example.com/icon24.png",
+        "32": "https://example.com/icon32.png",
+        "48": "https://example.com/icon48.png",
+        "128": "https://example.com/icon128.png"
+    }
+}

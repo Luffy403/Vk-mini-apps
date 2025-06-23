@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Мои заметки</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://unpkg.com/@vkontakte/vk-bridge/dist/browser.min.js"></script>
+</head>
+<body>
+    <div class="app">
+        <header class="header">
+            <h1>Мои заметки</h1>
+        </header>
+        
+        <main class="main">
+            <div class="note-form">
+                <textarea id="noteInput" placeholder="Введите текст заметки..."></textarea>
+                <button id="addNoteBtn" class="vkuiButton">Добавить заметку</button>
+            </div>
+            
+            <div class="notes-list" id="notesList">
+                <!-- Здесь будут отображаться заметки -->
+            </div>
+        </main>
+    </div>
+
+    <script src="js/vkbridge.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>
