@@ -34,10 +34,11 @@ body {
     min-height: 100px;
     margin-bottom: 10px;
     font-family: inherit;
+    font-size: 16px;
 }
 
 .vkuiButton {
-    background-color: #5181b8;
+    background-color: #842391;
     color: white;
     border: none;
     padding: 10px 20px;
@@ -45,10 +46,11 @@ body {
     cursor: pointer;
     font-weight: 500;
     width: 100%;
+    font-size: 16px;
 }
 
 .vkuiButton:hover {
-    background-color: #5a88c2;
+    background-color: #884ad4;
 }
 
 .notes-list {
@@ -71,7 +73,7 @@ body {
 }
 
 .note-date {
-    font-size: 12px;
+    font-size: 16px;
     color: #999;
 }
 
@@ -83,7 +85,7 @@ body {
     border: none;
     color: #999;
     cursor: pointer;
-    font-size: 16px;
+    font-size: 30px;
 }
 
 .delete-btn:hover {
